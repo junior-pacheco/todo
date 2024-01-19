@@ -41,7 +41,7 @@ const CreateTodo = () => {
   }, [alertType]);
   
   return (
-    <div className="flex w-full h-[90%] justify-center items-center">
+    <div className="flex  w-full h-[90%] justify-center items-center">
       <Modal
         isOpen={isModalOpen}
         onRequestClose={closeModal}
@@ -51,7 +51,7 @@ const CreateTodo = () => {
         shouldCloseOnOverlayClick={true}
         shouldCloseOnEsc={true}
       >
-        <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-md shadow-md">
+        <div className="fixed  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-md shadow-md">
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-lg font-bold">Create Todo</h2>
             <button
@@ -106,7 +106,7 @@ const CreateTodo = () => {
             <div className="flex justify-end">
               <button
                 type="submit"
-                className="bg-teal-500  text-white px-4 py-2 rounded hover:bg-teal-500 "
+                className="bg-green-400  text-white px-4 py-2 rounded hover:bg-green-500 "
               >
                 Create
               </button>
