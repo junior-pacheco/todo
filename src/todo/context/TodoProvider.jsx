@@ -21,7 +21,6 @@ const initialState =  [
 
 
 const TodoProvider = ({children}) => {
-  console.log('children', children)
   const [state, dispatch] = useReducer(todoReducer, initialState)
 
   const createTodo = (data) => { 

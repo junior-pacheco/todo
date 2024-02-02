@@ -1,6 +1,5 @@
 export const todoReducer = (state, action) => {
 
-  console.log('action', action)
 
   switch (action.type) {
   case '[TODO] create':

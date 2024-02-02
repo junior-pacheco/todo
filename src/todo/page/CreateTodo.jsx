@@ -37,7 +37,6 @@ const CreateTodo = () => {
     setAlertType(null); // Limpiar el tipo de alerta al cerrar el modal
   };
   useEffect(() => {
-    console.log('alertType:', alertType);
   }, [alertType]);
   
   return (
